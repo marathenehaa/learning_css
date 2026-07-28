@@ -1,0 +1,11 @@
+.t_shadow_neha{
+    text-shadow: 5px 7px 10px red;
+}
+.b_shadow{
+    box-shadow: 8px 10px 10px grey;
+    width: 207px;
+}
+.d_shadow{
+    filter: drop-shadow(8px 10px 10px red);
+    width: 300px;
+}

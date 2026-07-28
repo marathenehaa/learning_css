@@ -1,0 +1,31 @@
+.b_properties1{
+    /* solid, dotted, dashed, double, inset, outset */
+    border: 20px groove brown;
+    width: 300px;
+}
+.b_properties2{
+    border: 10px solid darkmagenta;
+    border-top-color: darkgreen;
+    border-right-color: deeppink;
+    border-bottom-color: maroon;
+    border-left-color: darkslategray;
+}
+.b_properties3{
+    border: 8px solid green;
+    width: 500px;
+    /* border-radius: 30px; */
+    /* border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px; */
+    border-radius: 50%;
+}
+.b_properties4{
+    border: 10px solid green;
+    width: 300px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+
+}

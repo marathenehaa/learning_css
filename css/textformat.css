@@ -35,3 +35,17 @@
     font-size: 50px;
     text-shadow: 5px 8px 7px grey;
 }
+.t_indent{
+    text-indent: 180px;
+    color: red;
+    background-color: yellow;
+}
+.t_letter_space{
+    letter-spacing: 13px;
+}
+.t_word_space{
+    word-spacing: 40px;
+}
+.t_line-height{
+    line-height: 26px;
+}

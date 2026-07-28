@@ -1,0 +1,12 @@
+.box_model1{
+    border: 5px double brown;
+    padding: 30px;
+    margin: 20px;
+}
+.box_model2{
+    border: 5px dashed darkgreen;
+    border-radius: 30px;
+    /* top right bottom left */
+    padding: 40px 60px 40px 60px;
+    margin: 30px 60px 30px 60px;
+}
