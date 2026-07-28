@@ -1,0 +1,37 @@
+/* h3{
+    color: bisque;
+    font-size: 50px;
+    background-color: brown;
+} */
+
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+.t_transform_capitilize{
+    text-transform: capitalize;
+}
+.t_d_overline{
+    text-decoration: overline;
+}
+.t_d_underline{
+    text-decoration: underline;
+}
+.t_d_lineThrough{
+    text-decoration: line-through;
+}
+.t_all{
+    text-decoration: overline underline line-through;
+}
+.t_shadow1{
+    color: darkgoldenrod;
+    font-size: 50px;
+    text-shadow: 3px 5px 3px brown;
+}
+.t_shadow2{
+    color: brown;
+    font-size: 50px;
+    text-shadow: 5px 8px 7px grey;
+}

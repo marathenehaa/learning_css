@@ -1,0 +1,40 @@
+/* h6{
+    color: aliceblue;
+    background-color: black;
+    font-size: 50px;
+}
+h5{
+    color: aliceblue;
+    background-color: black;
+    font-size: 50px;
+} */
+ 
+ /* class can be used multiple */
+.heading1{
+    color: darkred;
+    font-size: 40px;
+}
+.headingbg{
+    background-color: burlywood;
+}
+.heading2{
+    color: crimson;
+    font-size: 70px;
+}
+.heading6{
+    color: aliceblue;
+    font-size: 60px;
+    background-color: black;
+}
+/* ID is unique */
+#heading5{
+    color: darkmagenta;
+    font-size: 100px;
+    background-color: bisque;
+}
+#heading4{
+    color: pink;
+    font-size: 90px;
+}
+
+
