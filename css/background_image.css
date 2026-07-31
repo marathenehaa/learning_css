@@ -1,0 +1,16 @@
+.bgimage{
+    background-image: url("/images/icecream_backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading1{
+    color: darkblue;
+    font-size: 100px;
+    text-align: center;
+    padding: 40px;
+}
+.para_1{
+    color: darkblue;
+    margin: 120px 60px 0px 60px;
+    font-size: 30px;
+}

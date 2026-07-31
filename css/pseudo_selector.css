@@ -1,0 +1,34 @@
+h1{
+    color: black;
+    font-size: 60px;
+}
+h1:hover{
+    color: purple;
+    text-shadow: 10px 10px 10px gray;
+    background-color: plum;
+}
+.heading_active:active{
+    color: purple;
+    text-shadow: 10px 10px 10px gray;
+    background-color: plum;
+    cursor: pointer;
+}
+input:focus{
+    border: 5px dashed darkred;
+    background-color: cornsilk;
+    color: darkslategray;
+}
+a:visited{
+    color: darkred;
+}
+p::first-letter{
+    color: blue;
+    font-size: 50px;
+}
+p::first-line{
+    color: red;
+}
+::selection{
+    color: brown;
+    background-color: darkkhaki;
+}

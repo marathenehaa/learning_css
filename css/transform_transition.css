@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+.box{
+    background-color: darksalmon;
+    color: darkred;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px groove darkred;
+    transition: transform 3s ease-in;
+
+}
+.box1:hover{
+    transform: translate(125px,125px);  
+}
+.box2:hover{
+    transform: translateX(200px);
+}
+.box3:hover{
+    transform: translateY(200px);
+}
+.box4:hover{
+    transform: rotate(360deg);
+}
+.box5:hover{
+    transform: skewX(50deg);
+}
+.box6:hover{
+    transform: scale(1.2);
+}
