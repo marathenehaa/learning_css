@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .linear{
+            height: 300px;
+            background: linear-gradient(pink, purple, orange);
+        }
+        h1{
+            color: black;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .radial{
+            height: 600px;
+            background: radial-gradient(circle at center, pink, white, skyblue);
+        }
+        .r_image{
+            display: block;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .conic{
+            height: 300px;
+            background: conic-gradient(
+                from 180deg,
+                red,
+                orange,
+                yellow,
+                green,
+                blue,
+                indigo,
+                violet
+            );
+        }
+        .donut{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            background: conic-gradient(red, yellow, green, blue);
+            mask: radial-gradient(circle 60px, transparent 60px, black 41px);
+        }
+    </style>
+</head>
+<body>
+    <div class="linear">
+        <h1>Welcome to my Icecream Shop</h1>
+    </div>
+    <div class="radial">
+        <h1>Welcome to my Icecream Shop</h1>
+        <img class="r_image" src="images/icecream4.jpg" alt="icecream">
+    </div>
+    <div class="conic"></div>
+    <div class="donut"></div>
+</body>
+</html>

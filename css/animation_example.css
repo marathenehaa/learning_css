@@ -1,0 +1,46 @@
+#s_animation{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+    position: relative;
+    animation-name: movingBox;
+    animation-duration: 10s;
+    /* -webkit-animation: movingBox; */
+    /* 2s 3s 4s 5s etc */
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+    animation-delay: 5s;
+    border: 10px solid black;
+}
+@keyframes movingBox{
+    0%{
+        background-color: darkcyan;
+        left: 0%;
+        top: 0%;
+        border: 10px solid black;
+    }
+    25%{
+        background-color: darkkhaki;
+        left: 300px;
+        top: 0px;
+        border: 10px solid darkred;
+    }
+    50%{
+        background-color: darkseagreen;
+        left: 300px;
+        top: 300px;
+        border: 10px solid darkslateblue;
+    }
+    75%{
+        background-color: grey;
+        left: 0px;
+        top: 300px;
+        border: 10px solid black;
+    }
+    100%{
+        background-color: blueviolet;
+        left: 0px;
+        top: 0px;
+        border: 10px solid darkslategray;
+    }
+}
